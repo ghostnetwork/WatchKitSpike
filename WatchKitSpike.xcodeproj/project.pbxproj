@@ -79,9 +79,7 @@
 			children = (
 				9E72F5761AFEA59C0058D8AC /* AppDelegate.swift */,
 				9E72F5781AFEA59C0058D8AC /* ViewController.swift */,
-				9E72F57A1AFEA59C0058D8AC /* Main.storyboard */,
-				9E72F57D1AFEA59C0058D8AC /* Images.xcassets */,
-				9E72F57F1AFEA59C0058D8AC /* LaunchScreen.xib */,
+				9E72F5961AFEA5A60058D8AC /* UX */,
 				9E72F5741AFEA59C0058D8AC /* Supporting Files */,
 			);
 			path = WatchKitSpike;
@@ -110,6 +108,16 @@
 				9E72F58B1AFEA59C0058D8AC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E72F5961AFEA5A60058D8AC /* UX */ = {
+			isa = PBXGroup;
+			children = (
+				9E72F57A1AFEA59C0058D8AC /* Main.storyboard */,
+				9E72F57F1AFEA59C0058D8AC /* LaunchScreen.xib */,
+				9E72F57D1AFEA59C0058D8AC /* Images.xcassets */,
+			);
+			name = UX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WatchKitSpike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WatchKitSpike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
